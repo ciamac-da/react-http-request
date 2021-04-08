@@ -21,6 +21,9 @@ class NewPost extends Component {
         })
     }
 
+  
+
+
     render () {
         return (
             <div className="NewPost">
