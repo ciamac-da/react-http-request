@@ -16,7 +16,10 @@ class FullPost extends Component {
             this.setState({
               loadedPost: response.data,
             });
-          });
+          })
+          .catch(error =>{
+            console.log(error)
+        })
       }
     }
   };
@@ -27,6 +30,9 @@ class FullPost extends Component {
     .delete("https://jsonplaceholder.typicode.com/posts/" + this.props.id)
     .then(response =>{
         console.log(response)
+    })
+    .catch(error =>{
+        console.log(error)
     })
 }
 
