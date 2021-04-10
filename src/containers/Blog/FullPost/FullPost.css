@@ -4,6 +4,8 @@
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     text-align: center;
+    background-color: #fa923f;
+    border-radius: 10px;
 }
 
 .Edit {
@@ -29,7 +31,10 @@
 }
 
 .Edit button.Delete {
-    color: red;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
 }
 
 .Edit button.Delete:hover,
