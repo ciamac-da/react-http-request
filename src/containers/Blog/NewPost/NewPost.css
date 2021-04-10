@@ -33,12 +33,16 @@
     font: inherit;
     border: 1px solid #fa923f;
     background-color: transparent;
-    color: #fa923f;
+    color: #fff;
     cursor: pointer;
+    background-color: rgb(40, 121, 20) !important;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bolder;
 }
 
 .NewPost button:hover,
 .NewPost button:active {
-    color: white;
-    background-color: #fa923f;
+    background-color: white !important;
+    color: rgb(40, 121, 20) !important;
 }
